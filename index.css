@@ -1,0 +1,17 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  overflow: hidden;
+  background: #1a1a1a;
+}
+body.dragging {
+  cursor: ns-resize;
+}
+body.dragging * {
+  user-select: none;
+  pointer-events: none;
+}
